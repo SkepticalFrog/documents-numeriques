@@ -1,0 +1,36 @@
+#colorTable .blue{
+    background-color: blue;
+    color: white;
+}
+
+#colorTable .blue::first-letter {
+    color: white;
+}
+
+#colorTable .pink {
+    background-color: pink;
+}
+
+#colorTable .green {
+    background-color: green;
+}
+
+#colorTable .red {
+    background-color: red;
+}
+
+#colorTable .yellow {
+    background-color: yellow;
+}
+
+#colorTable .orange {
+    background-color: darkorange;
+}
+
+#colorTable .grey {
+    background-color: grey;
+}
+
+#colorTable .purple {
+    background-color: purple;
+}

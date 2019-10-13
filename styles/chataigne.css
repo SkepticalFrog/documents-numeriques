@@ -1,0 +1,14 @@
+* {
+    color: aliceblue;
+    background-color: black;
+}
+
+/*chataigne*/
+li+li+li+li>em {
+    color: crimson;
+}
+
+/*couverture*/
+body>ul>li>em {
+    color: greenyellow;
+}
