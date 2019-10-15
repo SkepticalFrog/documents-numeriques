@@ -1,12 +1,14 @@
 .form {
     display: block;
     border: 1px solid black;
-
+    width: 390px;
+    padding: 20px;
+    
 }
 
-form {
-    margin: 20px auto;
-    padding: 15px;
+.form form {
+    margin: auto;
+    padding: 15px 20px;
     display: block;
     width: 350px;
     border: 1px solid black;
@@ -18,5 +20,27 @@ form {
     text-align: left;
     background-color: white;
     color: black;
-    font-display: small-caps;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
+
+.form p::first-letter {
+    color: rgb(71, 98, 252);
+}
+
+.form p span {
+    color: rgb(177, 177, 177);
+}
+
+.form input {
+    margin-bottom: 20px;
+}
+
+.form input, .form textarea {
+    width: 310px;
+    border-radius: 7px;
+    background-color: rgb(224, 224, 224);
+}
+
