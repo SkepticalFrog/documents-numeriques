@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    min-width: 500px;
+    min-width: 1200px;
     max-width: 1200px;
     width: 80%; 
     padding: 10px;
@@ -32,8 +32,8 @@ footer [href] {
 }
 
 footer [href]:hover {
-    background-color: black;
-    color: dodgerblue;
+    background-color: rgb(13, 46, 138);
+    color: wheat;
 }
 
 main p {
@@ -73,6 +73,7 @@ h2 ~ h2 {
     border-top-style: solid;
     border-top-color: darkblue;
     text-align: right;
+    opacity: 1;
 }
 
 .menu > ul > li,
@@ -112,11 +113,27 @@ h2 ~ h2 {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 20px;
     list-style: none;
+    opacity: 1;
+}
+
+.infHover:hover {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    opacity: 1;
+}
+
+.menu:hover li.infHover:hover ul.menuContext li {
+    opacity: 1;
+}
+
+.menu:hover li:not(:hover) {
+    opacity: 0.4;
 }
 
 .menuContext a:hover {
     color: aliceblue;
     background-color: blue;
+    border-radius: 15px;
 }
 
 li:hover .menuContext {
@@ -124,6 +141,7 @@ li:hover .menuContext {
     flex-direction: column;
     position: absolute;
     margin-left: -.65em;
+    margin-top: 0.62em;
 }
 
 /* Infobulles */
