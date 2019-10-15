@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    min-width: 1200px;
+    min-width: 800px;
     max-width: 1200px;
     width: 80%; 
     padding: 10px;

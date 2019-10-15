@@ -1,0 +1,22 @@
+.form {
+    display: block;
+    border: 1px solid black;
+
+}
+
+form {
+    margin: 20px auto;
+    padding: 15px;
+    display: block;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.form p {
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-display: small-caps;
+}
